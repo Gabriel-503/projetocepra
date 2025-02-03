@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #2C3E50;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #34495E;
+}
+
+h3, h4 {
+    margin-top: 20px;
+    color: #2980B9;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 16px;
+    text-align: justify;
+}
+
+ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+button {
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #3498DB;
+}
+
+/* Estilo do botão flutuante */
+.back-button {
+    position: fixed;
+    left: 20px;
+    top: 650px;
+    z-index: 1000;
+    background-color: #2980B9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #3498DB;
+}
